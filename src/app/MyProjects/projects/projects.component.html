@@ -1,23 +1,24 @@
 <h2>{{project.name | uppercase }} Details</h2>
 <div>
-  <span> id :</span>
-  {{project.id}}
-</div>
-<div>
-  <span> Name :</span>
-  {{project.name}}
-</div>
-<div>
+  <table>
+  <tr>
+    <th>Id </th>
+    <th>Name </th>
+    <th>Description </th>
+    <th>Client </th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>Sphere</td>
+    <td>abcd</td>
+    <td>Inovics</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Cuboid</td>
+    <td>abcd</td>
+    <td>InfoSolutions</td>
+  </tr>
+</table>
 
-    <span> Decription :</span>
-    {{project.desc}}
-
-  </div>
-  <div>
-    <span> client :</span>
-    {{project.cl}}
-  </div>
-  <div>
-    <label for="name">Project Name: </label>
-    <input id="name"  placeholder="name">
-  </div>
+</div>
